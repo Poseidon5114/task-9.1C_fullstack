@@ -1,0 +1,40 @@
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0c3ec9;
+  padding: 10px;
+  color: #fff;
+}
+
+.company-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-items {
+  display: flex;
+  gap: 20px;
+}
+
+#search-input {
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+}
+
+#login-button {
+  background-color: #0e0e0f;
+  color: #fff;
+  border: none;
+  padding: 14px 10px;
+  cursor: pointer;
+}
+
+#post-button {
+  background-color: #0a0b0b;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}

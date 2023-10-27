@@ -1,0 +1,80 @@
+/* Container styles */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Make the container cover the entire viewport height */
+  }
+  
+  /* Heading styles */
+  .container p {
+    font-size: 2rem;
+    text-align: center;
+    color: #FF5733; /* Vivid orange */
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  form {
+    background: linear-gradient(to bottom, #FFD700, #FFAC33); /* Gold to Coral gradient */
+    border: 1px solid #FF5733; /* Coral border */
+    padding: 20px 60px;
+    border-radius: 10px; /* Rounded corners */
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Label styles */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #FF5733; /* Coral */
+  }
+  
+  /* Input styles */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #FFAC33; /* Coral */
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #FF5733; /* Change border color on focus to Coral */
+  }
+  
+  /* Button styles */
+  button[type="submit"] {
+    background: linear-gradient(to bottom, #FF5733, #FF1744); /* Coral to Red gradient */
+    color: #fff;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+    margin-top: 10px;
+    outline: none;
+  }
+  
+  button[type="submit"]:hover {
+    background: linear-gradient(to bottom, #FF1744, #FF4500); /* Red to Orange gradient on hover */
+  }
+  
+  /* Error message styles */
+  .error {
+    color: #E74C3C; /* Lighter Coral for error messages */
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 15px; /* Slightly increased margin */
+  }
+  

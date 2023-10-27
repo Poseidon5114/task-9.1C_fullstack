@@ -1,0 +1,45 @@
+.featured-tutorials {
+    text-align: center;
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: 800;
+    
+}
+
+.tutorial-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tutorial {
+    margin: 20px 0;
+}
+
+.tutorial1 img {
+    max-width: 70%;
+    height: auto;
+}
+.tutorial2 img {
+    max-width: 70%;
+    height: auto;
+}
+.tutorial3 img {
+    max-width: 70%;
+    height: auto;
+}
+
+.see-all-tutorials {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.see-all-tutorials a {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    padding: 10px 20px;
+}
